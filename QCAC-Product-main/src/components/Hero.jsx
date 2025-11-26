@@ -3,7 +3,7 @@ import visionProImg from '../images/visionProImg.png';
 
 export default function Hero() {
   return (
-    <section style={{ padding: '40px', 
+    <section style={{ padding: '40px 20px', 
       textAlign: 'center' , 
       backgroundColor : '#f5f5f5',
       borderBottom: '2px solid #e0e0e0'
@@ -11,7 +11,8 @@ export default function Hero() {
       <h1 style = {{
         fontSize: '2.5rem', 
         marginBottom:'20px',
-        color:'#333'
+        color:'#333',
+        padding: '0 10px'
       }}>
         Apple Vision Pro  
       </h1>
@@ -30,7 +31,8 @@ export default function Hero() {
         maxWidth: '600px',
         margin: '0 auto',
         color: '#666',
-        lineHeight: '1.6'
+        lineHeight: '1.6',
+        padding: '0 10px'
       }}>
         A new era of spatial computing, say hello to Vision Pro.</p>
       
