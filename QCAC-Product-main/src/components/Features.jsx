@@ -38,7 +38,7 @@ export default function Features() {
         textAlign: 'center',
         fontSize: 'clamp(1.5rem, 5vw, 2rem)',
         marginBottom: '30px', //space below the heading
-        color: '#333',  //colour - can be changed according to the design 
+        color: '#000',  //colour - can be changed according to the design 
         padding: '0 10px' //padding for smaller screens  
       }}>
         Features
@@ -75,7 +75,7 @@ export default function Features() {
         <h3 style={{
           fontSize: 'clamp(1.1rem, 3vw, 1.3rem)',
           marginBottom: '10px',
-          color: '#060606ff',
+          color: '#333',
           wordBreak: 'break-word' //prevents overflowing of long words
         }}>
           {feature.title}
